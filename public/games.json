@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Solitaire Legend",
+    "thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/SolitaireLegendTeaser.jpg",
+    "url": "https://play.famobi.com/solitaire-legend",
+    "description": "Play the online version of the popular card game classic! Your task is to move all cards from the tableau to the four foundation piles, sorted by suit and rank in ascending order from Ace to King. On the tableau, cards can only be sorted in descending order alternating colors. Winning a game gives you coins which you can use to buy cool new card designs and backgrounds. If you are looking for a challenge, select the Draw 3 game mode and try to win the game as fast as possible with the least moves!",
+    "category": "Kart Oyunları",
+    "best": true
+  },
+  {
+    "id": 2,
+    "title": "Om Nom Run",
+    "thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/OmNomRunTeaser.jpg",
+    "url": "https://play.famobi.com/om-nom-run",
+    "description": "Sevimli Om Nom ile koş, engelleri aş ve en yüksek puanı elde et!",
+    "category": "Yarış",
+    "best": true
+  },
+  {
+    "id": 3,
+    "title": "Food Rush",
+    "thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/FoodRushTeaser.jpg",
+    "url": "https://play.famobi.com/food-rush",
+    "description": "Get ready to satisfy your hunger for fun with Food Rush - the ultimate food collecting game! As a bucket fills with a variety of delicious foods, you must collect three of the same type of food before the limited slots fill up. But be careful, if you fill up all the slots or the bucket overflows, it's game over! With fast reflexes and quick thinking, you can build up a combo and activate fire mode, which burns through all the food in the bucket, allowing you to start fresh and keep collecting. With its addictive gameplay and challenging mechanics, Food Rush is the perfect game for anyone looking for a fast-paced and satisfying experience. And with endless buckets of food to collect, you'll never run out of fun! Play Food Rush now and satisfy your hunger for fun in the ultimate food collecting game!",
+    "category": "Eşleştirme Oyunları",
+    "best": true
+  },
+  {
+    "id": 4,
+    "title": "World Cup Penalty 2018",
+    "thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/WorldCupPenalty_2018Teaser.jpg",
+    "url": "https://play.famobi.com/world-cup-penalty-2018",
+    "description": "Compete with the best football teams of 2018 in this exciting sports game! It's all about perfect timing and good reflexes. Choose your favorite soccer team, play as striker and goalkeeper and try to score as many points as possible. Compete in thrilling penalty shootouts and fight your way right up to the finals. Can you beat them all and win the trophy?",
+    "category": "Futbol",
+    "best": true
+  },
+  {
+    "id": 5,
+    "title": "Parking Jam",
+    "thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/ParkingJamTeaser.jpg",
+    "url": "https://play.famobi.com/parking-jam",
+    "description": "Master the madness in Parking Jam - can you clear the lot without causing chaos? Parking Jam is a mind-bending puzzle game that puts your logic and problem-solving skills to the test! Your goal? Free the cars from a crowded parking lot, but there’s a catch—cars are blocking each other, and you need to move them in the correct order to avoid a jam. Each level brings a new parking lot puzzle, with increasing complexity as more cars and obstacles appear. The satisfying feeling of clearing the lot makes every successful move worth it! So step up and become the ultimate parking master in Parking Jam!",
+    "category": "Puzzle",
+    "best": true
+  },
+  {
+    "id": 6,
+    "title": "Adventure Drivers",
+    "thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/AdventureDriversTeaser.jpg",
+    "url": "https://play.famobi.com/adventure-drivers",
+    "description": "Go on an exciting adventure and compete in a thrilling 2D car race for fame, glory and treasures! Explore 30 obstacle tracks on a mysterious island and try to be the first to pass the finish line. Race against your opponents, perform cool stunts and collect coins, treasure chests and power ups which can give you a decisive advantage over your competition. Upgrade and improve your car or buy a new one with different stats in the shop to drive even better. Complete tricky challenges for permanent rewards and win the race!",
+    "category": "Yarış",
+    "best": true
+  },
+  {
+    "id": 7,
+    "title": "My Free Farm 2",
+    "thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/MyFreeFarm2Teaser.jpg",
+    "url": "https://play.famobi.com/my-free-farm-2",
+    "description": "In this online farm game, it's all about managing and evolving your very own farm. Plant crops, take care of your animals and upgrade your land. Buy helpful decorations and new buildings and produce various goods to sell to hungry customers. Join a guild and help friends in need with quests or by trading goods at the market place. Level up your character and unlock cool new items for your farm! Will you become the most popular farmer of all times in this fun economy simulation?",
+    "category": "Çok Oyunculu Oyunlar",
+    "best": true
+  },
+  {
+    "id": 8,
+    "title": "Western Sniper",
+    "thumbnail": "https://img.cdn.famobi.com/portal/html5games/images/tmp/WesternSniperTeaser.jpg",
+    "url": "https://play.famobi.com/western-sniper",
+    "description": "Take aim and become the ultimate gunslinger in Western Sniper – the wildest shooting challenge! Western Sniper is an action-packed shooting game that puts you in the boots of a fearless sharpshooter in the Wild West. Bandits have taken over the town, and it’s up to you to take them down with precision shots! From saloons to dusty streets, every level presents new enemies and tougher challenges. Use your sniper skills, time your shots perfectly, and prove that you’re the fastest gun in the West. With immersive environments and thrilling shootouts, Western Sniper delivers non-stop action! So load up, take aim, and bring justice to the Wild West in Western Sniper!",
+    "category": "Aksiyon Oyunları",
+    "best": true
+  }
+]
