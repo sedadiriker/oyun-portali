@@ -12,10 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
 export const metadata = {
   title: "Oyun Portalı - En İyi Oyunlar",
-  description: "En yeni ve popüler HTML5 oyunları burada oynayın! Arcade, yarış, bulmaca ve daha fazlası.",
+  description:
+    "En yeni ve popüler HTML5 oyunları burada oynayın! Arcade, yarış, bulmaca ve daha fazlası.",
   openGraph: {
     title: "Oyun Portalı",
     description: "En yeni ve popüler HTML5 oyunları burada oynayın!",
@@ -42,16 +42,16 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-       {/* Google Tag Manager (gtag.js) script'ini ekleyin */}
-       <Script
+    <head>
+        {/* Google Tag Manager (gtag.js) script'ini ekleyin */}
+      <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-3QVS42EL8E"
       />
-      
+
       {/* İstemci tarafı kodunu da ayrı bir Script bileşeni içine alın */}
       <Script id="google-analytics">
         {`
@@ -62,6 +62,7 @@ export default function RootLayout({ children }) {
   gtag('config', 'G-3QVS42EL8E');
         `}
       </Script>
+    </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
