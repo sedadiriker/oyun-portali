@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://oyun-portali.vercel.app
+
+# Sitemaps
+Sitemap: https://oyun-portali.vercel.app/sitemap.xml
