@@ -48,11 +48,7 @@ export default function RootLayout({ children }) {
     <head>
         <meta name="google-site-verification" content="o-yguMQOnFfWFsTuQk_sfEExyFmeS-r4OmmfEYvTtos" />
           {/* Google AdSense Otomatik Reklam Kodu */}
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1058750842422715"
-          crossOrigin="anonymous"
-        />
+        <meta name="google-adsense-account" content="ca-pub-1058750842422715"/>
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-3QVS42EL8E"
