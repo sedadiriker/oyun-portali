@@ -46,7 +46,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <head>
-        {/* Google Tag Manager (gtag.js) script'ini ekleyin */}
         <meta name="google-site-verification" content="o-yguMQOnFfWFsTuQk_sfEExyFmeS-r4OmmfEYvTtos" />
       <Script
         async

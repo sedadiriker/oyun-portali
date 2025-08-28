@@ -11,3 +11,7 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+const { withSitemap } = require('next-sitemap');
+
+module.exports = withSitemap(nextConfig);
