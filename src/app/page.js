@@ -1,10 +1,10 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Header from "./Header";
-import GameCard from "./GameCard";
-import Overlay from "./Overlay";
-import Footer from "./Footer";
+import Header from "./header";
+import GameCard from "./gameCard";
+import Overlay from "./overlay";
+import Footer from "./footer";
 
 export default function Home() {
   const [games, setGames] = useState([]);
