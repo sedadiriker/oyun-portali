@@ -49,16 +49,17 @@ export default function RootLayout({ children }) {
        {/* Google Tag Manager (gtag.js) script'ini ekleyin */}
        <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-30P542EL8E"
+        src="https://www.googletagmanager.com/gtag/js?id=G-3QVS42EL8E"
       />
       
       {/* İstemci tarafı kodunu da ayrı bir Script bileşeni içine alın */}
       <Script id="google-analytics">
         {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-30P542EL8E');
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3QVS42EL8E');
         `}
       </Script>
       <body
