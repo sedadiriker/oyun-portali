@@ -1,8 +1,9 @@
 // app/page.js (Güncellenmiş Sunucu Bileşeni)
 import Header from "./components/header";
-import GameGrid from "./components/GameGrid"; // Yeni bileşeni içe aktarın
 import Footer from "./components/footer";
 import Image from "next/image";
+import ClientGrid from "./components/clientGrid";
+
 
 // Veriyi sunucu tarafında çeken asenkron fonksiyon
 async function getGames() {
@@ -34,7 +35,6 @@ export default async function Home() {
 
   return (
     <div className="bg-gradient-to-b from-[#0b1220] to-[#0f172a] text-gray-200 min-h-screen text-center">
-      <Header categories={categories} />
 
       <div className="flex justify-center">
         {featuredGames.length > 0 && (
@@ -65,7 +65,8 @@ export default async function Home() {
         )}
       </div>
 
-      <GameGrid games={games} /> {/* Oyun listesi artık bu bileşen içinde yönetiliyor. */}
+      <ClientGrid games={games} categories={categories} />
+
 
       <Footer />
     </div>
