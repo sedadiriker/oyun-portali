@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 export default function Header({ category, setCategory }) {
   const categoryMap = {
@@ -28,22 +29,29 @@ export default function Header({ category, setCategory }) {
   };
 
   // Öne çıkan/popüler kategoriler (sabit veya rastgele seçebilirsiniz)
-  const popularCategories = ["arcade", "action", "puzzle", "sports", "multiplayer"];
+  const popularCategories = [
+    "arcade",
+    "action",
+    "puzzle",
+    "sports",
+    "multiplayer",
+  ];
 
   return (
     <header className="sticky top-0 bg-[#0f172a]/90 backdrop-blur border-b border-white/5 p-3">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
         <div className="flex items-center gap-2">
-          <img
+          <Image
             src="/logo.png"
             alt="Logo"
+            width={80}
+            height={80}
             className="w-20 h-20 rounded-lg object-cover"
           />
           <strong>Oyun Portalı</strong>
         </div>
 
         {/* Kategori select */}
-      
 
         {/* Popüler kategori butonları */}
         <div className="flex flex-wrap gap-2 mt-2 md:mt-0">
@@ -60,18 +68,18 @@ export default function Header({ category, setCategory }) {
               {categoryMap[cat]}
             </button>
           ))}
-            <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
-          className="bg-[#111827] border border-white/10 rounded-lg px-3 py-2"
-        >
-          <option value="">Tüm Oyunlar</option>
-          {Object.entries(categoryMap).map(([key, label], idx) => (
-            <option key={idx} value={key}>
-              {label}
-            </option>
-          ))}
-        </select>
+          <select
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+            className="bg-[#111827] border border-white/10 rounded-lg px-3 py-2"
+          >
+            <option value="">Tüm Oyunlar</option>
+            {Object.entries(categoryMap).map(([key, label], idx) => (
+              <option key={idx} value={key}>
+                {label}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
     </header>
