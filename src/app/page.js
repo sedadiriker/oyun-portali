@@ -11,7 +11,7 @@ export default function Home() {
   const [category, setCategory] = useState("");
   const [overlayGame, setOverlayGame] = useState(null);
   const [loading, setLoading] = useState(true);
-  
+  const [featuredGames, setFeaturedGames] = useState([]);
 
   useEffect(() => {
     fetch("/api/famobi")
@@ -23,10 +23,15 @@ export default function Home() {
       .catch(() => setLoading(false));
   }, []);
 
-  const categories = [...new Set(games.flatMap((g) => g.categories))];
+  // games yüklendikten sonra öne çıkan oyunları seç
+  useEffect(() => {
+    if (games.length > 0) {
+      const shuffled = [...games].sort(() => 0.5 - Math.random());
+      setFeaturedGames(shuffled.slice(0, 5));
+    }
+  }, [games]);
 
-  // Öne çıkan oyunlar (rastgele seçilen 5 oyun)
-  const featuredGames = [...games].sort(() => 0.5 - Math.random()).slice(0, 5);
+  const categories = [...new Set(games.flatMap((g) => g.categories))];
 
   // Normal oyunlar, kategori filtresi uygulandı
   const filteredGames = category
@@ -40,8 +45,8 @@ export default function Home() {
         setCategory={setCategory}
         categories={categories}
       />
-        {/* Öne çıkan oyunlar */}
 
+      {/* Öne çıkan oyunlar */}
       <div className="flex justify-center">
         {featuredGames.length > 0 && (
           <section className="max-w-7xl mx-auto p-4">
